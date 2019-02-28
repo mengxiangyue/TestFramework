@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>5380BBC6-D4D2-49F1-BCB4-D08268A24065</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5380BBC6-D4D2-49F1-BCB4-D08268A24065.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TestFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UserService</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>timeStartedRecording</key>
+			<real>573016044.87424195</real>
+			<key>timeStoppedRecording</key>
+			<real>573016048.69386303</real>
+			<key>title</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>uniqueIdentifier</key>
+			<string>5380BBC6-D4D2-49F1-BCB4-D08268A24065</string>
+		</dict>
+		<key>A0CB14F9-9C29-4E10-95DC-FA0CEC44063C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0CB14F9-9C29-4E10-95DC-FA0CEC44063C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TestFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UserService</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project TestFramework with scheme UserService and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>573016254.72798705</real>
+			<key>timeStoppedRecording</key>
+			<real>573016254.81390297</real>
+			<key>title</key>
+			<string>Cleaning project TestFramework with scheme UserService and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>A0CB14F9-9C29-4E10-95DC-FA0CEC44063C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

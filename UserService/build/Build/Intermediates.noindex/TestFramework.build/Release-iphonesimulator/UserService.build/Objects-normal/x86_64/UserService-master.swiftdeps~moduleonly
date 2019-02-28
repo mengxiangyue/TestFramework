@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "25f8db57afb997c1ac9703a6986e212f"
+build_time: [1551323455, 65325000]
+inputs:
+  "/Users/Xiangyue.Meng/Downloads/TestFramework/UserService/Main.swift": [9223372036, 854775807]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>2CE69A67-E25C-48CA-9321-F350B35480A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2CE69A67-E25C-48CA-9321-F350B35480A6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TestFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UserService</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project TestFramework with scheme UserService and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>573016663.83963501</real>
+			<key>timeStoppedRecording</key>
+			<real>573016663.92235398</real>
+			<key>title</key>
+			<string>Cleaning project TestFramework with scheme UserService and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>2CE69A67-E25C-48CA-9321-F350B35480A6</string>
+		</dict>
+		<key>E1A89910-A163-484E-B792-A93D2976EC46</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E1A89910-A163-484E-B792-A93D2976EC46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TestFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UserService</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>timeStartedRecording</key>
+			<real>573016663.92317295</real>
+			<key>timeStoppedRecording</key>
+			<real>573016664.83493102</real>
+			<key>title</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>uniqueIdentifier</key>
+			<string>E1A89910-A163-484E-B792-A93D2976EC46</string>
+		</dict>
+		<key>EBAE81E3-9518-4F5D-9604-97B7B1856BE2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EBAE81E3-9518-4F5D-9604-97B7B1856BE2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>TestFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UserService</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>timeStartedRecording</key>
+			<real>573016636.07001495</real>
+			<key>timeStoppedRecording</key>
+			<real>573016637.19773996</real>
+			<key>title</key>
+			<string>Archiving project TestFramework with scheme UserService</string>
+			<key>uniqueIdentifier</key>
+			<string>EBAE81E3-9518-4F5D-9604-97B7B1856BE2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

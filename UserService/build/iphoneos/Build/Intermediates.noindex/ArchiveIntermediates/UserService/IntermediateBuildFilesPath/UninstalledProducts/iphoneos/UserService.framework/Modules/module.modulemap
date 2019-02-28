@@ -1,0 +1,11 @@
+framework module UserService {
+  umbrella header "UserService.h"
+
+  export *
+  module * { export * }
+}
+
+module UserService.Swift {
+    header "UserService-Swift.h"
+    requires objc
+}

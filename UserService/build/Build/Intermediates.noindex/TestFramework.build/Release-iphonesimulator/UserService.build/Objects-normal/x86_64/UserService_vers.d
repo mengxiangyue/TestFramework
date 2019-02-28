@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/Xiangyue.Meng/Downloads/TestFramework/UserService/build/Build/Intermediates.noindex/TestFramework.build/Release-iphonesimulator/UserService.build/DerivedSources/UserService_vers.c
