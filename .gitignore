@@ -1,2 +1,4 @@
 build/
 Products/
+Pods/
+command-tool/
