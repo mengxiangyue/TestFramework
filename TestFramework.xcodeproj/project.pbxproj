@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36F2CBEC469B9F0EEAF435A0 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048E42749D7B15CE7916CA06 /* Pods_TestFramework.framework */; };
-		426256C7B6E69EE76C5C5C74A97B8E8A /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 		6C04947378D14A9455B55A41 /* Pods_CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EE7653E40BB61FE6C26279 /* Pods_CoreService.framework */; };
 		8DCE1B3022277AB90060EEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B2F22277AB90060EEFB /* AppDelegate.swift */; };
 		8DCE1B3222277AB90060EEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B3122277AB90060EEFB /* ViewController.swift */; };
@@ -22,6 +21,7 @@
 		8DCE1B6522277C470060EEFB /* gen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6422277C470060EEFB /* gen.sh */; };
 		8DCE1B922227A1410060EEFB /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 		CCF64A1D97A88E96A80B46FC /* Pods_UserService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB80986E78E2CDC0ACE6CE1A /* Pods_UserService.framework */; };
+		D84CE4C5F440733C95B2667FF8304197 /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426256C7B6E69EE76C5C5C74A97B8E8A /* CoreService.framework in Frameworks */,
 				36F2CBEC469B9F0EEAF435A0 /* Pods_TestFramework.framework in Frameworks */,
+				D84CE4C5F440733C95B2667FF8304197 /* CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
