@@ -7,10 +7,14 @@
 //
 
 import Foundation
+import Alamofire
 
 
 public func sayHi() {
     print("hello Core now hello")
     
+    Alamofire.request("https://httpbin.org/get").responseJSON { response in
+        print("Core response ----------")
+    }
     
 }
