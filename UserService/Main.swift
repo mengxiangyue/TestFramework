@@ -7,7 +7,10 @@
 //
 
 import Foundation
+import CoreService
+
 
 public func sayHi() {
-    print("hello User 1233434")
+    print("hello User world")
+    CoreService.sayHi()
 }

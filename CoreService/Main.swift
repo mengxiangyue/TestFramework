@@ -9,5 +9,5 @@
 import Foundation
 
 public func sayHi() {
-    print("hello Core")
+    print("hello Core now hello")
 }

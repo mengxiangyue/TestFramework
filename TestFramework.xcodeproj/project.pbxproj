@@ -17,7 +17,8 @@
 		8DCE1B6122277B160060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6022277B160060EEFB /* Main.swift */; };
 		8DCE1B6322277B3F0060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6222277B3F0060EEFB /* Main.swift */; };
 		8DCE1B6522277C470060EEFB /* gen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6422277C470060EEFB /* gen.sh */; };
-		8DCE1B912227916B0060EEFB /* UserService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B5322277AF10060EEFB /* UserService.framework */; };
+		8DCE1B922227A1410060EEFB /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
+		8DCE1B952227A3A90060EEFB /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCE1B912227916B0060EEFB /* UserService.framework in Frameworks */,
+				8DCE1B952227A3A90060EEFB /* CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCE1B922227A1410060EEFB /* CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
