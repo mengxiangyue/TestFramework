@@ -1,3 +1,7 @@
 build/
 Products/
 Pods/
+/command-tool/.DS_Store
+/command-tool/.build
+/command-tool/Packages
+/command-tool/*.xcodeproj

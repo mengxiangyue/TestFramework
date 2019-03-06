@@ -22,13 +22,13 @@ func main() throws {
         }
     }
     
-//    frameworksBuildPhase.first?.files.removeAll()
+    frameworksBuildPhase.first?.files.removeAll()
 //
 //
-    guard let coreServiceTarget = xcodeproj.pbxproj.targets(named: "CoreService").first else { fatalError() }
-    guard let coreServiceRef = coreServiceTarget.product else { fatalError() }
-    let coreServiceBuildFile = PBXBuildFile(file: coreServiceRef)
-    frameworksBuildPhase.first?.files.append(coreServiceBuildFile)
+//    guard let coreServiceTarget = xcodeproj.pbxproj.targets(named: "CoreService").first else { fatalError() }
+//    guard let coreServiceRef = coreServiceTarget.product else { fatalError() }
+//    let coreServiceBuildFile = PBXBuildFile(file: coreServiceRef)
+//    frameworksBuildPhase.first?.files.append(coreServiceBuildFile)
 
 
     try xcodeproj.write(path: path)
