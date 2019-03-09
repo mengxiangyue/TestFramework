@@ -19,7 +19,6 @@
 		8DCE1B6122277B160060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6022277B160060EEFB /* Main.swift */; };
 		8DCE1B6322277B3F0060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6222277B3F0060EEFB /* Main.swift */; };
 		8DCE1B6522277C470060EEFB /* gen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6422277C470060EEFB /* gen.sh */; };
-		8DCE1B922227A1410060EEFB /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 		CCF64A1D97A88E96A80B46FC /* Pods_UserService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB80986E78E2CDC0ACE6CE1A /* Pods_UserService.framework */; };
 		D84CE4C5F440733C95B2667FF8304197 /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +27,7 @@
 		048E42749D7B15CE7916CA06 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BBBBE75BC5AF007FE7AA86 /* Pods-CoreService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreService/Pods-CoreService.debug.xcconfig"; sourceTree = "<group>"; };
 		76CB5A76FEE177FAF3770C65 /* Pods-CoreService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreService/Pods-CoreService.release.xcconfig"; sourceTree = "<group>"; };
+		8D399B6D223398CC000F67F3 /* CoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreService.framework; sourceTree = "<group>"; };
 		8DCE1B2C22277AB90060EEFB /* TestFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCE1B2F22277AB90060EEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DCE1B3122277AB90060EEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCE1B922227A1410060EEFB /* CoreService.framework in Frameworks */,
 				CCF64A1D97A88E96A80B46FC /* Pods_UserService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +155,7 @@
 		8DCE1B6622278AC00060EEFB /* SubBins */ = {
 			isa = PBXGroup;
 			children = (
+				8D399B6D223398CC000F67F3 /* CoreService.framework */,
 				8DCE1B6722278ADE0060EEFB /* UserService.framework */,
 			);
 			path = SubBins;
@@ -702,6 +702,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFramework/SubBins",
+				);
 				INFOPLIST_FILE = UserService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -733,6 +737,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFramework/SubBins",
+				);
 				INFOPLIST_FILE = UserService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
