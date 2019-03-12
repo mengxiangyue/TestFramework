@@ -9,13 +9,13 @@ SRCROOT=$(dirname $0)
 FMK_NAME="CoreService"
 # Install dir will be the final output to the framework.
 # The following line create it in the root folder of the current project.
-INSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework
+INSTALL_DIR=${SRCROOT}/../TestFramework/SubBins/${FMK_NAME}.framework
 # Working dir will be deleted after the framework creation.
 WRK_DIR=${SRCROOT}/build
 DEVICE_DIR=${WRK_DIR}/iphoneos/Build/Intermediates.noindex/ArchiveIntermediates/${FMK_NAME}/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/${FMK_NAME}.framework
 SIMULATOR_DIR=${WRK_DIR}/iphonesimulator/Build/Products/Release-iphonesimulator/${FMK_NAME}.framework
-xcodebuild -project '../TestFramework.xcodeproj' -scheme "${FMK_NAME}" -configuration Release -sdk iphoneos -derivedDataPath 'build/iphoneos' clean archive
-xcodebuild -project '../TestFramework.xcodeproj' -scheme "${FMK_NAME}" -configuration Release -sdk iphonesimulator clean build -derivedDataPath 'build/iphonesimulator'
+xcodebuild -workspace '../TestFramework.xcworkspace' -scheme "${FMK_NAME}" -configuration Release -sdk iphoneos -derivedDataPath 'build/iphoneos' clean archive
+xcodebuild -workspace '../TestFramework.xcworkspace' -scheme "${FMK_NAME}" -configuration Release -sdk iphonesimulator clean build -derivedDataPath 'build/iphonesimulator'
 # Cleaning the oldest.
 if [ -d "${INSTALL_DIR}" ]
 then

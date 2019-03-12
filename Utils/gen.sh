@@ -6,7 +6,7 @@
 # 例如: FMK_NAME = "MyFramework"
 #FMK_NAME=${PROJECT_NAME}
 SRCROOT=$(dirname $0)
-FMK_NAME="UserService"
+FMK_NAME="Utils"
 # Install dir will be the final output to the framework.
 # The following line create it in the root folder of the current project.
 INSTALL_DIR=${SRCROOT}/../TestFramework/SubBins/${FMK_NAME}.framework

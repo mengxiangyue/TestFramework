@@ -9,12 +9,22 @@
 import Foundation
 import Alamofire
 
-
-public func sayHi() {
-    print("hello Core now hello")
+public class CoreService: NSObject {
+    @objc
+    public class func sayToOC() {
+        print("Hello oc")
+    }
+    
+    func test() {
+        Crypto.sayToSwift()
+    }
+}
+public func sayHiInCore() {
+    print("hello Core now hello4444")
     
     Alamofire.request("https://httpbin.org/get").responseJSON { response in
         print("Core response ----------")
     }
+    Crypto.sayToSwift()
     
 }

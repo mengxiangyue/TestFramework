@@ -12,11 +12,14 @@ import Alamofire
 
 
 public func sayHi() {
-    print("hello User world")
-    CoreService.sayHi()
+    print("hello User world333333")
+//    CoreService.sayHi()
+    sayHiInCore()
     
     Alamofire.request("https://httpbin.org/get").responseJSON { response in
         print("User response ----------")
     }
     print("User end -----")
+    
+    Crypto.sayToSwift()
 }

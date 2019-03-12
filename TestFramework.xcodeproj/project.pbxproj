@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		36F2CBEC469B9F0EEAF435A0 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048E42749D7B15CE7916CA06 /* Pods_TestFramework.framework */; };
 		6C04947378D14A9455B55A41 /* Pods_CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EE7653E40BB61FE6C26279 /* Pods_CoreService.framework */; };
+		8D7FD8072237528200B7D431 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7FD8062237528200B7D431 /* Utils.framework */; };
+		8D7FD80D2237547300B7D431 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7FD80C2237547300B7D431 /* Utils.framework */; };
 		8DCE1B3022277AB90060EEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B2F22277AB90060EEFB /* AppDelegate.swift */; };
 		8DCE1B3222277AB90060EEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B3122277AB90060EEFB /* ViewController.swift */; };
 		8DCE1B3522277AB90060EEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE1B3322277AB90060EEFB /* Main.storyboard */; };
@@ -19,14 +21,20 @@
 		8DCE1B6122277B160060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6022277B160060EEFB /* Main.swift */; };
 		8DCE1B6322277B3F0060EEFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6222277B3F0060EEFB /* Main.swift */; };
 		8DCE1B6522277C470060EEFB /* gen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE1B6422277C470060EEFB /* gen.sh */; };
+		8DE8D8A722355D260029E491 /* gen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8DE8D8A622355D260029E491 /* gen.sh */; };
+		8DE8D8AA223562D90029E491 /* Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE8D8A8223562D90029E491 /* Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE8D8AB223562D90029E491 /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8D8A9223562D90029E491 /* Crypto.m */; };
 		CCF64A1D97A88E96A80B46FC /* Pods_UserService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB80986E78E2CDC0ACE6CE1A /* Pods_UserService.framework */; };
-		D84CE4C5F440733C95B2667FF8304197 /* CoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCE1B4622277ADA0060EEFB /* CoreService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E42749D7B15CE7916CA06 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BBBBE75BC5AF007FE7AA86 /* Pods-CoreService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreService/Pods-CoreService.debug.xcconfig"; sourceTree = "<group>"; };
 		76CB5A76FEE177FAF3770C65 /* Pods-CoreService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreService.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreService/Pods-CoreService.release.xcconfig"; sourceTree = "<group>"; };
+		8D7FD8062237528200B7D431 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7FD8082237538D00B7D431 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7FD80A2237542000B7D431 /* Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Utils.framework; sourceTree = "<group>"; };
+		8D7FD80C2237547300B7D431 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCE1B2C22277AB90060EEFB /* TestFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCE1B2F22277AB90060EEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DCE1B3122277AB90060EEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 		8DCE1B6222277B3F0060EEFB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		8DCE1B6422277C470060EEFB /* gen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen.sh; sourceTree = "<group>"; };
 		8DCE1B6722278ADE0060EEFB /* UserService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserService.framework; sourceTree = "<group>"; };
+		8DE8D89F223557980029E491 /* CoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreService.framework; sourceTree = "<group>"; };
+		8DE8D8A622355D260029E491 /* gen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen.sh; sourceTree = "<group>"; };
+		8DE8D8A8223562D90029E491 /* Crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crypto.h; sourceTree = "<group>"; };
+		8DE8D8A9223562D90029E491 /* Crypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crypto.m; sourceTree = "<group>"; };
 		95EE7653E40BB61FE6C26279 /* Pods_CoreService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB1144680D3CF586CD0541F /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		C5385A6D937C991CCBAEB24E /* Pods-UserService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserService.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserService/Pods-UserService.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,8 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7FD80D2237547300B7D431 /* Utils.framework in Frameworks */,
 				36F2CBEC469B9F0EEAF435A0 /* Pods_TestFramework.framework in Frameworks */,
-				D84CE4C5F440733C95B2667FF8304197 /* CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7FD8072237528200B7D431 /* Utils.framework in Frameworks */,
 				6C04947378D14A9455B55A41 /* Pods_CoreService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +149,9 @@
 				8DCE1B4822277ADA0060EEFB /* CoreService.h */,
 				8DCE1B4922277ADA0060EEFB /* Info.plist */,
 				8DCE1B6222277B3F0060EEFB /* Main.swift */,
+				8DE8D8A622355D260029E491 /* gen.sh */,
+				8DE8D8A8223562D90029E491 /* Crypto.h */,
+				8DE8D8A9223562D90029E491 /* Crypto.m */,
 			);
 			path = CoreService;
 			sourceTree = "<group>";
@@ -154,6 +170,8 @@
 		8DCE1B6622278AC00060EEFB /* SubBins */ = {
 			isa = PBXGroup;
 			children = (
+				8D7FD80A2237542000B7D431 /* Utils.framework */,
+				8DE8D89F223557980029E491 /* CoreService.framework */,
 				8DCE1B6722278ADE0060EEFB /* UserService.framework */,
 			);
 			path = SubBins;
@@ -162,6 +180,9 @@
 		8DCE1B8C222790D20060EEFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D7FD80C2237547300B7D431 /* Utils.framework */,
+				8D7FD8082237538D00B7D431 /* Utils.framework */,
+				8D7FD8062237528200B7D431 /* Utils.framework */,
 				95EE7653E40BB61FE6C26279 /* Pods_CoreService.framework */,
 				048E42749D7B15CE7916CA06 /* Pods_TestFramework.framework */,
 				CB80986E78E2CDC0ACE6CE1A /* Pods_UserService.framework */,
@@ -177,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DCE1B4A22277ADA0060EEFB /* CoreService.h in Headers */,
+				8DE8D8AA223562D90029E491 /* Crypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE8D8A722355D260029E491 /* gen.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE8D8AB223562D90029E491 /* Crypto.m in Sources */,
 				8DCE1B6322277B3F0060EEFB /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +618,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grabtaxi.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/TestFramework/SubBins";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -619,6 +644,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grabtaxi.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/TestFramework/SubBins";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -628,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52BBBBE75BC5AF007FE7AA86 /* Pods-CoreService.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -660,6 +687,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76CB5A76FEE177FAF3770C65 /* Pods-CoreService.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -691,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCBE8973B620F243C1A6C9DD /* Pods-UserService.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -714,6 +743,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grabtaxi.UserService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -726,6 +756,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5385A6D937C991CCBAEB24E /* Pods-UserService.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -749,6 +780,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grabtaxi.UserService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

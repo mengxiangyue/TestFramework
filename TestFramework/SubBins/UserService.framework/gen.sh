@@ -9,7 +9,7 @@ SRCROOT=$(dirname $0)
 FMK_NAME="UserService"
 # Install dir will be the final output to the framework.
 # The following line create it in the root folder of the current project.
-INSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework
+INSTALL_DIR=${SRCROOT}/../TestFramework/SubBins/${FMK_NAME}.framework
 # Working dir will be deleted after the framework creation.
 WRK_DIR=${SRCROOT}/build
 DEVICE_DIR=${WRK_DIR}/iphoneos/Build/Intermediates.noindex/ArchiveIntermediates/${FMK_NAME}/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/${FMK_NAME}.framework
